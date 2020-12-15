@@ -47,7 +47,7 @@ main(int argc, char **argv)
 
 	/* dump thread system status every 5s */
 	while (1) {
-		thread_sleep(10000);
+		thread_sleep(5000);
 		thread_dump();
 	}
 
